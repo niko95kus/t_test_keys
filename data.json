@@ -1,0 +1,188 @@
+{
+	"item": [
+		{
+			"name": "Google Firebase - header",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "AAAAqwe_S5q:APA91b8uVvvpYoh4fSJBCPBVdbEFvuyBnIVLekoBI8fnWWTqets8kL3m8z9BtkG93yUwbKZKgEZvr9JQ1fsBqUaryvYVM4rFHDnRQRuWM66C4pLwkDtrN7WFUIqJl07EsCmeQKH4bz13",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"attribute\": \"value\" }"
+				},
+				"url": {
+					"raw": "https://api.example.com/resource/12345",
+					"protocol": "https",
+					"host": [
+						"api",
+						"example",
+						"com"
+					],
+					"path": [
+						"resource",
+						"12345"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Google Firebase - body",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"token\": \"AAAAqwe_S5q:APA91b8uVvvpYoh4fSJBCPBVdbEFvuyBnIVLekoBI8fnWWTqets8kL3m8z9BtkG93yUwbKZKgEZvr9JQ1fsBqUaryvYVM4rFHDnRQRuWM66C4pLwkDtrN7WFUIqJl07EsCmeQKH4bz14\", \"tag\": \"Google Firebase - body\" }"
+				},
+				"url": {
+					"raw": "https://api.example.com/resource/12345",
+					"protocol": "https",
+					"host": [
+						"api",
+						"example",
+						"com"
+					],
+					"path": [
+						"resource",
+						"12345"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Google Firebase - URL query",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.example.com/data?token=AAAAqwe_S5q:APA91b8uVvvpYoh4fSJBCPBVdbEFvuyBnIVLekoBI8fnWWTqets8kL3m8z9BtkG93yUwbKZKgEZvr9JQ1fsBqUaryvYVM4rFHDnRQRuWM66C4pLwkDtrN7WFUIqJl07EsCmeQKH4bz15",
+					"protocol": "https",
+					"host": [
+						"api",
+						"example",
+						"com"
+					],
+					"path": [
+						"data"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "AAAAqwe_S5q:APA91b8uVvvpYoh4fSJBCPBVdbEFvuyBnIVLekoBI8fnWWTqets8kL3m8z9BtkG93yUwbKZKgEZvr9JQ1fsBqUaryvYVM4rFHDnRQRuWM66C4pLwkDtrN7WFUIqJl07EsCmeQKH4bz15"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Azure storage - header",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "protocol",
+						"value": "https",
+						"type": "text"
+					},
+					{
+						"key": "AccountName",
+						"value": "az-storage",
+						"type": "text"
+					},
+					{
+						"key": "EndpointSuffix",
+						"value": "core.windows.net",
+						"type": "text"
+					},
+					{
+						"key": "AccountKey",
+						"value": "g8FQca0QnXcrHvjU5PeMpbEv5sN2uwCPhoHbzcvdv7EF6LHLq/D96Rm4S9XRuKRcvff1xdShvAYElNH3NDZhnw==",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"attribute\": \"value\" }"
+				},
+				"url": {
+					"raw": "https://api.example.com/resource/12345",
+					"protocol": "https",
+					"host": [
+						"api",
+						"example",
+						"com"
+					],
+					"path": [
+						"resource",
+						"12345"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Azure storage - body",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"connString\": \"DefaultEndpointsProtocol=https;AccountName=hello;AccountKey=g8FQca0QnXcrHvjU5PeMpbEv5sN2uwCPhoHbzcvdv7EF6LHLq/D96Rm4S9XRuKRcvff1xdShvAYElNH3NDZhnw==;EndpointSuffix=core.windows.net\", \"tag\": \"Azure storage 17 - body\" }"
+				},
+				"url": {
+					"raw": "https://api.example.com/resource/12345",
+					"protocol": "https",
+					"host": [
+						"api",
+						"example",
+						"com"
+					],
+					"path": [
+						"resource",
+						"12345"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Azure storage - URL query",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.example.com/data?connection_string=DefaultEndpointsProtocol=https;AccountName=hello;AccountKey=g8FQca0QnXcrHvjU5PeMpbEv5sN2uwCPhoHbzcvdv7EF6LHLq/D96Rm4S9XRuKRcvff1xdShvAYElNH3NDZhnw==;EndpointSuffix=core.windows.net&count=18",
+					"protocol": "https",
+					"host": [
+						"api",
+						"example",
+						"com"
+					],
+					"path": [
+						"data"
+					],
+					"query": [
+						{
+							"key": "connection_string",
+							"value": "DefaultEndpointsProtocol=https;AccountName=hello;AccountKey=g8FQca0QnXcrHvjU5PeMpbEv5sN2uwCPhoHbzcvdv7EF6LHLq/D96Rm4S9XRuKRcvff1xdShvAYElNH3NDZhnw==;EndpointSuffix=core.windows.net"
+						},
+						{
+							"key": "count",
+							"value": "18"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+
+	]
+}
